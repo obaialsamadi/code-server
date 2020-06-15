@@ -1,7 +1,6 @@
 variable "key-server" {
   type        = string
   default     = "keyserver.ubuntu.com"
-  description = "Whenever to allow running Nomad client alongside Nomad server. Not recommended in production by Hashicorp"
 }
 variable "cluster_size" {
   type        = number
@@ -36,7 +35,7 @@ variable "instance_name" {
 }
 variable "gcp_project_id" {
   type    = string
-  default = "<GIVE DEFAULT ID>"
+  default = "<GIVE PROJECT ID>"
 }
 
 variable "gcp_machine_type" {
