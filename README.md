@@ -8,6 +8,9 @@ For more info:
 - https://github.com/cdr/code-server
 
 **QUICK START:**
+- Make sure you have Terraform v0.12 and above installed. I used some modules that aren't available in older versions.
+- In `variable.tf`, find the variable `gcp_project_id` and change the default to your GCP project ID.
+- In `main.tf`, in the `provider` section, I'm using google as default. Use whatever you like and make sure you supply the proper credentials, make the right changes, etc. If you do use Google, [this guide is pretty neat.](https://console.cloud.google.com/projectselector2/apis/credentials/serviceaccountkey?pli=1&supportedpurview=project)
 - to run, make sure you are in the directory that your `tf` files exist, then initialize Terraform by running `terraform init`.
 - next, run `terraform validate` to make sure everything is in order.
 - finally, run `terraform apply` to begin the process. Once it's done, you can access Code Server through one of the server IPs that are outputted after a successful run. Just toss it in your browser. The default password is "my-password". 
