@@ -24,4 +24,4 @@ be better then please by all means tell me. I'd appreciate it.
 - Fork or clone the repo, whatever you are comfortable with.
 - Make sure you have Terraform v0.12 and above installed. I used some modules that aren't available in older versions.
 - In `main.tf`, in the `provider` section, I'm using google as default. Use whatever you like and make sure you supply the proper
-credentials. If you do use Google, (this guide is pretty neat) [https://console.cloud.google.com/projectselector2/apis/credentials/serviceaccountkey?pli=1&supportedpurview=project]
+credentials. If you do use Google, [this guide is pretty neat](https://console.cloud.google.com/projectselector2/apis/credentials/serviceaccountkey?pli=1&supportedpurview=project)
