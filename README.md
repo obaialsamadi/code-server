@@ -16,7 +16,7 @@ https://github.com/cdr/code-server
 NOTE: you can run `terraform apply -auto-approve` to skip the part where Terraform asks you if you are sure you want to run Terraform. Otherwise, you'll have to enter 'yes' or 'no'. Same applies with `terraform destroy`. WHEN YOU DESTROY THEN ALL YOUR WORK ON THE SERVER IS GONE KEEP THAT IN MIND. 
 
 ## Acknowledgements
-Special thanks to Damoon (github: da-moon) for being a great help in my DevOps journey and helping me with the NGINX configuration used in this Terraform module. 
+Special thanks to Damoon (github: da-moon) for being an unmatched and phenomenal help in my DevOps journey and helping me with the NGINX configuration used in this Terraform module. 
 
 I would also like to thank the creators of Code Server. Excellent job.
 
