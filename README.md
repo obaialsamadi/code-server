@@ -39,8 +39,8 @@ be better then please by all means tell me. I'd appreciate it.
 
 - Fork or clone the repo, whatever you are comfortable with.
 - Make sure you have Terraform v0.12 and above installed. I used some modules that aren't available in older versions.
-- In `main.tf`, in the `provider` section, I'm using google as default. Use whatever you like and make sure you supply the proper
-credentials. If you do use Google, [this guide is pretty neat.](https://console.cloud.google.com/projectselector2/apis/credentials/serviceaccountkey?pli=1&supportedpurview=project)
+- In `variable.tf`, find the variable `gcp_project_id` and change the default to your GCP project ID.
+- In `main.tf`, in the `provider` section, I'm using google as default. Use whatever you like and make sure you supply the proper credentials, make the right changes, etc. If you do use Google, [this guide is pretty neat.](https://console.cloud.google.com/projectselector2/apis/credentials/serviceaccountkey?pli=1&supportedpurview=project)
 - I have 3 servers that get spun up with Code Server ready to go on them. If you need less or more, go to `variable.tf` and change `cluster_size` variable default value. 
 - run `ssh-keygen` to generate your ssh keys needed by Terraform to launch these instances. Save them in their default location. If you change the location or default name then you have to reflect that change in the `variable.tf` file.
 
