@@ -4,8 +4,8 @@ This is a Terraform module that deploys and configures Code Server on GCP instan
 
 Code Server allows you to run VSCODE in a remote environment by accessing it through a web browser. 
 For more info:
-https://coder.com/
-https://github.com/cdr/code-server
+- https://coder.com/
+- https://github.com/cdr/code-server
 
 **QUICK START:**
 - to run, make sure you are in the directory that your `tf` files exist, then initialize Terraform by running `terraform init`.
