@@ -64,4 +64,4 @@ The null resources are named in steps for understanding purposes of what we are 
 
 ---
 
-Obviously there are things to improve. I'm currently focused on advancing my skills as DevOps engineer by using Linux Academy's DevOps learning path and working for a startup doing DevOps tasks, so I haven't been focused on this project much, at least not beyond what the startup needs. If you have suggestions, please reach out. Enjoy coding from anywhere!
+Obviously there are things to improve. I'm currently focused on advancing my skills as a DevOps engineer by using Linux Academy's DevOps learning path and working for a startup doing DevOps tasks, so I haven't been focused on this project much, at least not beyond what the startup needs. If you have suggestions, please reach out. Enjoy coding from anywhere!
